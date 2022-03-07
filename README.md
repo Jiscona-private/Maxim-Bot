@@ -6,8 +6,7 @@ If you want to use Maxim, you have to
 1. Install the gamemaster using the link above.
 2. Build the gamemaster.
 3. Get the `maxim_1-2.java` file in the "build" folder.
-4. Change the `gamemasterName` variable (line 22) to the name of the file that you want Maxim to play in (with no changes to the gamemaster either "black" or "white"; standard is "black").
-5. Execute Maxim using `java maxim_1-2.java`.
+4. Execute Maxim using `java maxim_1-2.java`. Give the file of the name that Maxim is supposed to write his moves in as an argument right behind `java maxim_1-2.java` (e.g. as `java maxim_1-2.java black`).
 
 After this, Maxim will automatically begin to play the game as soon as he has any commands in the file specified above.
 
