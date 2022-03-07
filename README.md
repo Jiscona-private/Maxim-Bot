@@ -10,3 +10,6 @@ If you want to use Maxim, you have to
 5. Execute Maxim using `java maxim_1-2.java`.
 
 After this, Maxim will automatically begin to play the game as soon as he has any commands in the file specified above.
+
+## Search depth
+Maxim is using a minixmax function to determine the best move. Thus, the "deeper" the bot searches, the better his moves will be - but it'll take more time, too. You can decide which depth to use. Change the 4 in line 299 (`minmax` call in the `getMove` function) to the value you want.
