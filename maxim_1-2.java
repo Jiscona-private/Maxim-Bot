@@ -18,7 +18,7 @@ public class connect4 {
   static short maxim = 2;
   static short opponent = 1;     
   
-  static String gamemasterName = "black";
+  static String gamemasterName = "";
 
   // Creating the game field
   static short[][] gameField = new short[16][4];
@@ -349,6 +349,8 @@ public class connect4 {
     }
   
   public static void main(String[] args) {  
+   gamemasterName = args[0];
+   
     short opponentMove;
     String move = "";
     
